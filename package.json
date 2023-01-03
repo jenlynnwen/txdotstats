@@ -1,0 +1,15 @@
+{
+  "name": "txdotstats",
+  "version": "1.0.0",
+  "description": "Texas DOT Crash Stats",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jenlynnwen",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "sqlite3": "^5.1.4"
+  }
+}
