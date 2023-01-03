@@ -5,5 +5,3 @@ var http = require('http');
 var app = express();
 var server = http.createServer(app);
 var db = new sqlite3.Database('./database/txdotstats.db');
-
-db.run('CREATE TABLE IF NOT EXISTS crash(id TEXT, name TEXT)');
